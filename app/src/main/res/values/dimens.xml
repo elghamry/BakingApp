@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="app_bar_height">200dp</dimen>
+    <dimen name="item_width">300dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="text_padding">16dp</dimen>
+    <dimen name="card_view_height">200dp</dimen>
+    <dimen name="recipe_image_height">220dp</dimen>
+    <dimen name="cardview_default_padding">8dp</dimen>
+    <dimen name="cardview_default_margin">8dp</dimen>
+    <dimen name="margin_detail_views">16dp</dimen>
+    <dimen name="widget_margin">8dp</dimen>
+    <dimen name="padding_margin_8dp">8dp</dimen>
+    <dimen name="widget_min_dimen">220dp</dimen>
+    <dimen name="elevation_1dp">1dp</dimen>
+    <dimen name="margin_padding_32dp">32dp</dimen>
+    <dimen name="iv_icon_size">32dp</dimen>
+    <dimen name="step_list_card_size">80dp</dimen>
+    <dimen name="sep_size">1dp</dimen>
+    <dimen name="pb_size">40dp</dimen>
+    <dimen name="text_size_16sp">16sp</dimen>
+    <dimen name="iv_widget_height">100dp</dimen>
+</resources>

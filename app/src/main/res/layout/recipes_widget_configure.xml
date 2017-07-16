@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="@dimen/margin_detail_views"
+    android:layout_marginRight="@dimen/margin_detail_views"
+    android:padding="@dimen/text_padding"
+    android:clipToPadding="false"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding_margin_8dp"
+        android:text="@string/configure" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_recipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:outlineProvider="bounds"
+        android:elevation="1dp"
+        android:nestedScrollingEnabled="false"
+        app:layoutManager="LinearLayoutManager"
+        >
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>
+</android.support.v4.widget.NestedScrollView>

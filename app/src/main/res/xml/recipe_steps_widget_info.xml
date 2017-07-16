@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:configure="app.elghamry.android.bakingapp.widget.RecipesWidgetConfigureActivity"
+    android:initialKeyguardLayout="@layout/recipes_widget"
+    android:initialLayout="@layout/recipes_widget"
+    android:minHeight="@dimen/widget_min_dimen"
+    android:minWidth="@dimen/widget_min_dimen"
+    android:previewImage="@drawable/ingredients"
+    android:resizeMode="horizontal|vertical"
+    android:updatePeriodMillis="180000"
+    android:widgetCategory="home_screen"/>
